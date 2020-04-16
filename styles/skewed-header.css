@@ -1,0 +1,56 @@
+ /* Styles for skewed header  */
+
+.skewed-header{
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.skewed-header>.header-bg{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transform:skewY(-6deg);
+  transform-origin: top left;
+  filter:brightness(110%);
+}
+
+.skewed-header> .skewed-header-wrapper{
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  color: #8C2020;
+}
+.skewed-header>.skewed-header-wrapper> .skewed-header-content{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.skewed-header>.skewed-header-wrapper>.skewed-header-content>.heading-wrapper{
+  background-color: #04C4D9;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  width: auto;
+  }
+
+.skewed-header>.skewed-header-wrapper>.skewed-header-content>.heading-wrapper> h1{
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+
+.skewed-header-content>.links-wrapper>.nav-link a{
+  font-size: 1.1em;
+}

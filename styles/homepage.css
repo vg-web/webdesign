@@ -1,0 +1,40 @@
+/* colors
+#F22738; helles rot
+#04C4D9; türkis
+#038C33; grün
+#F2B705; gelb
+#8C2020;  dunkles rot*/
+
+/* Hero section styles */
+
+.hero-section{
+  background-image: url(../images/backgrounds/blumen.jpg);
+  padding: 100px;
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.hero-section>.top-heading{
+  padding: 1px 20px;
+  background-color: #F2B705;
+  color: #8C2020;
+  opacity:.8 ;
+  width: 200px;
+  border-radius: 2px;
+
+  font-size: .9em;
+}
+
+  .text{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .banner-image img{
+
+ }

@@ -1,0 +1,16 @@
+/* colors
+#F22738;
+#04C4D9;
+#038C33;
+#F2B705;
+#8C2020; */
+
+/* Common styles */
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Roboto Slab', serif;
+}
